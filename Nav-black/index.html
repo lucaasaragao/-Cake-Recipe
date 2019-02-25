@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    $(window).on('scroll', function() {
+        if($(window).scrollTop()) {
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+
+</script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo"> <img src="img/logo.png" alt="logo" ></div>
+            <ul>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Dúvidas</a></li>
+                <li><a href="#">Periódicos</a></li>
+                <li><a href="#">Espaço do Editor</a></li>
+                <li><a href="#">Documentos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+        <section class="sec1"></section>
+        
+        <section class="content">
+            <p> O Portal de Periódicos da UFPB disponibiliza periódicos gerenciados por pesquisadores vinculados à UFPB. 
+                Trata-se de um importante veículo da memória científica institucional e de disseminação dos trabalhos produzidos por pesquisadores brasileiros e estrangeiros.
+            
+            <p>portal passou por uma avaliação de Arquitetura da Informação e sofreu modificações para ficar mais leve, intuitivo e contemplar as orientações de identidade visual do Governo Federal.</p>
+            
+            <p> A logomarca foi redimensionada mantendo a base conceitual já adota na primeira versão do portal, ou seja, as inscrições rupestres do monumento arqueológico Pedra do Ingá na Paraíba.</p>
+
+        </section>
+    </div>
+</body>
+
+</html>
