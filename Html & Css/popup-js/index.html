@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function abrir(){
+            document.getElementById('nota1').style.display = 'block';
+        };
+
+        function fechar(){
+            document.getElementById('nota1').style.display = 'none';   
+        };
+
+    </script>
+</head>
+<body>
+
+
+    <a href="javascript: abrir();">Abrir</a>
+
+    <div class="idFootnoter" >
+        <aside class="footnote-003" class="idFootnote" epub:type="footernote" id="nota1">
+            <p>Abriu</p>
+            <a href="javascript: fechar();">fechar</a>                
+        </aside>     
+
+    </div>
+</body>
+</html>
